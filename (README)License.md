@@ -1,4 +1,3 @@
-====================================
 TERMS OF USE, INTELLECTUAL PROPERTY, AND PROPRIETARY RIGHTS NOTICE
 Last Updated: November 2026
 ================================================================================

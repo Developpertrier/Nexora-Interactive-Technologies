@@ -136,6 +136,7 @@ All requests for written permission or inquiries regarding this notice must be
 directed to:
 
 Owner: William Liang and Walker Markie
+
 Contact: woodylandcorporation123@gmail.com
 
 Copyright © 2026 Nexora Interactive Technologies. All Rights Reserved.

